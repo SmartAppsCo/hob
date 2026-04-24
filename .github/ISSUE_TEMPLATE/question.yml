@@ -1,0 +1,20 @@
+name: Question
+description: Ask a usage question about hob.
+title: "[question]: "
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to understand or accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include mode, operating system, screenshots, or logs if relevant.
+    validations:
+      required: false

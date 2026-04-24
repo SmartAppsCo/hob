@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="burner-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4e6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="20" y="34" width="88" height="16" rx="8" fill="url(#burner-gradient)"/>
+  <rect x="28" y="58" width="72" height="12" rx="6" fill="#c0caf5" opacity="0.45"/>
+  <rect x="36" y="78" width="56" height="9" rx="4.5" fill="#c0caf5" opacity="0.22"/>
+</svg>

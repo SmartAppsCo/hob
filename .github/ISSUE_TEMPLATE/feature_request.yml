@@ -1,0 +1,53 @@
+name: Feature request
+description: Suggest an improvement or new workflow for hob.
+title: "[feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are most useful when they describe the workflow and the problem, not only the proposed solution.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What are you trying to do in hob?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What currently makes this workflow hard, slow, or impossible?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like hob to do differently?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds or other approaches have you tried?
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Agent panes
+        - Terminal panes
+        - Render panes
+        - Workspaces and tiling
+        - Roam, relay, or gateway
+        - Settings
+        - Install or updates
+        - Other
+    validations:
+      required: true
